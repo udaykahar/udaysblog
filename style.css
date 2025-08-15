@@ -1,10 +1,54 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-/* Body styling */
-body {
+/* Title at the top */
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 40px;
+    color: #2c3e50;
+}
+
+/* Homepage container */
+.homepage {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Subheading */
+.homepage h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+/* Blog list */
+.blog-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.blog-list li {
+    margin-bottom: 10px;
+}
+
+/* Blog links */
+.blog-list a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.blog-list a:hover {
+    text-decoration: underline;
 }
